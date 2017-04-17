@@ -1,0 +1,83 @@
+{
+    "author": "Michael Earls",
+    "dependencies": {},
+    "keywords": [],
+    "name": "moon-phase",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "cerkit.com Moon Phase",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "GET_COORDINATES": 2,
+            "KEY_LAT": 0,
+            "KEY_LNG": 1
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/MoonIcon.png",
+                    "menuIcon": true,
+                    "name": "MENU_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/phase6.png",
+                    "name": "IMAGE_PHASE6",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/phase5.png",
+                    "name": "IMAGE_PHASE5",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/phase4.png",
+                    "name": "IMAGE_PHASE4",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/phase2.png",
+                    "name": "IMAGE_PHASE2",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/phase1.png",
+                    "name": "IMAGE_PHASE1",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/phase0.png",
+                    "name": "IMAGE_PHASE0",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/phase7.png",
+                    "name": "IMAGE_PHASE7",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/phase3.png",
+                    "name": "IMAGE_PHASE3",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "2a9bd609-4955-49ea-983d-bf0f7582b289",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "6.0.0"
+}
